@@ -1,0 +1,97 @@
+.background {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-div {
+  height: 180px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.background-2 {
+  height: 500px;
+  width: 1100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.background-3 {
+  height: 480px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box-1 {
+  border-top: solid 5px;
+  color: hsl(180, 62%, 55%);
+  height: 200px;
+  width: 350px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 5px;
+}
+
+.box-2 {
+  border-top: solid 5px;
+  color: hsl(0, 78%, 62%);
+  height: 200px;
+  width: 350px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 5px;
+}
+
+.box-3 {
+  border-top: solid 5px;
+  color: hsl(34, 97%, 64%);
+  height: 200px;
+  width: 350px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 5px;
+}
+.box-4 {
+  border-top: solid 5px;
+  color: hsl(212, 86%, 64%);
+  height: 200px;
+  width: 350px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 5px;
+}
+
+.svg-1 {
+  position: absolute;
+  top: 60%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+}
+
+.svg-2 {
+  position: absolute;
+  top: 38%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+}
+.svg-3 {
+  position: absolute;
+  top: 83%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+}
+.svg-4 {
+  position: absolute;
+  top: 60%;
+  left: 94%;
+  transform: translate(-50%, -50%);
+}
